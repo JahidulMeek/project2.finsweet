@@ -16,6 +16,12 @@ ol,ul{
     padding:16px 56px;
     border-radius: 41px;
     border:1px solid transparent;
+    transition:.5s;
+}
+.common-button:hover a{
+    background-color:#1C1E53;
+    border:1px solid rgba(244, 246, 252, 0.20);
+    color:white;
 }
 /*==========
  common css
@@ -117,19 +123,36 @@ banner part start
  
  .banner .common-button-box .buttonside a{
     color:white;
+    display:inline-block;
  }
  .banner .common-button-box .buttonside{
     display:flex;
     column-gap:16px;
     align-items:center;
+    justify-content: center;
  }
  .banner .common-button-box .buttonside .fa-solid{
     color:white;
+    position:relative;
+    animation-name:jahidul;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
  }
- 
-  
- 
-
-/* ================
+ @keyframes jahidul{
+    0%{
+        top:0;
+        left:0;
+    }
+    50%{
+        top:0;
+        left:20px;
+    }
+   100%{
+        top:0;
+        left:0;
+    }
+ }
+ /* ================
 banner part end
 =============== */
