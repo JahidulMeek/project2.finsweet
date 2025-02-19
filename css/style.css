@@ -4,7 +4,7 @@ common css
 a{
     text-decoration:none;
 }
-ol,ul{
+ol, ul{
     list-style: none;
 }
 .common-button a{
@@ -113,9 +113,7 @@ banner part start
     align-items:center;
    
 }
-
-
- .banner .common-button-box{
+.banner .common-button-box{
     display:flex;
     column-gap:40px;
     align-items:center;
@@ -123,16 +121,17 @@ banner part start
  
  .banner .common-button-box .buttonside a{
     color:white;
-    display:inline-block;
+   
  }
  .banner .common-button-box .buttonside{
     display:flex;
     column-gap:16px;
     align-items:center;
-    justify-content: center;
+   
  }
  .banner .common-button-box .buttonside .fa-solid{
     color:white;
+    /*  banner icon animation start */
     position:relative;
     animation-name:jahidul;
     animation-duration:2s;
@@ -141,18 +140,90 @@ banner part start
  }
  @keyframes jahidul{
     0%{
-        top:0;
+        top:4px;
         left:0;
     }
     50%{
-        top:0;
+        top:4px;
         left:20px;
     }
    100%{
-        top:0;
+        top:4px;
         left:0;
     }
  }
+  /*  banner icon animation end */
  /* ================
 banner part end
 =============== */
+/* ===============
+work part start
+================= */
+.work{
+    background-color:#F4F6FC;
+    padding:128px 0px;
+}
+.work .title h2{
+    font-size:48px;
+    font-weight:600;
+    font-family: "Poppins", serif;
+    color:#282938;
+}
+.work .title p{
+    font-size:16px;
+    font-weight:400;
+    font-family: "Poppins", serif;
+    color:#282938;
+    padding-top:16px;
+    padding-bottom:16px;
+    width:405px;
+}
+.work .title .common-icon{
+    display:flex;
+    column-gap:7px;
+    align-items:center;
+    position:relative;
+}
+.work .title .common-icon a{
+    font-size:18px;
+    font-weight:500;
+    font-family: "Poppins", serif;
+    color:#2405F2;
+}
+.work .title .common-icon i{
+    color:#2405F2;
+    position:absolute;
+    top:7px;
+    left:187px;
+    opacity:1;
+    transition:.5s;
+}
+.work .title .common-icon:hover i{
+    top:7px;
+    left:200px;
+    opacity:1;
+}
+.work .box{
+    display:flex;
+    flex-wrap:wrap;
+    row-gap:48px;
+}
+.work .box .work-box{
+    width:328px;
+    background-color:#F4F6FC;
+}
+.work .box .work-box h2{
+    font-size:32px;
+    font-weight:500;
+    font-family: "Poppins", serif;
+    color:#282938;
+    padding-top:16px;
+    padding-bottom:8px;
+}
+.work .box .work-box img{
+    width:50px;
+    height:50px;  
+}
+/* ===============
+work part end
+================= */
