@@ -37,6 +37,7 @@ navbar part start
     border:5px solid transparent;
     transition:.5s;
 }
+
 .navbar:hover{
     border:5px solid #2405F2;
 }
@@ -227,3 +228,112 @@ work part start
 /* ===============
 work part end
 ================= */
+/* ============
+project part start
+=============== */
+.project{
+    padding:128px 0px;
+}
+.project .project-head{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-bottom:24px;
+}
+.project .common-icon{
+    display:flex;
+    align-items:center;
+    column-gap:16px;
+}
+.project .common-icon a{
+    color:#1B1C2B;
+}
+.col-lg-4{
+    display:flex;
+    flex-direction: column;
+    row-gap:48px;
+}
+
+
+
+.project .row .project-layout{
+    position:relative;
+    overflow:hidden;
+}
+.project .row .project-layout .overly{
+    position:absolute;
+    top:40px;
+    left:-50%;
+    width:47%;
+    height:100%;
+    transition:.5s;
+    background-image: linear-gradient(to bottom right,rgba(28, 30, 83, 0.42),#1C1E53 );
+    padding-top:312px;
+    padding-left:48px;
+   
+}
+.project .row .project-layout:hover .overly{
+   left:0;
+   
+ }
+ .project .row .project-layout .overly h3{
+    font-size:24px;
+    font-weight: 600;
+    color:white;
+    font-family: "Poppins", serif;
+ }
+ .project .row .project-layout .overly p{
+    font-size:16px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.70);
+    font-family: "Poppins", serif;
+    width:293px;
+    padding-top:16px;
+    padding-bottom:40px;
+ }
+ .project .row .project-layout .overly .common-icon a{
+    color:#FCD980;
+ }
+ .project .row .project-layout .overly .common-icon i{
+    color:#FCD980;
+ }
+
+ .project .row .project2{
+     margin-top:24px;
+     position:relative;
+     overflow:hidden;
+ }
+ .project .row .project2 .overlaytwo{
+    position:absolute;
+    top:-100%;
+    left:10px;
+    width:100%;
+    height:100%;
+    background-image: linear-gradient(to bottom right,rgba(28, 30, 83, 0.42),#1C1E53 );
+    transition:.5s;
+    padding-top:129px;
+    padding-left:46px;
+ }
+ .project .row .project2:hover .overlaytwo{
+    top:0;
+ }
+ .project .row .project2 .overlaytwo h3{
+    width:205px;
+    font-size:24px;
+    font-weight: 600;
+    color:white;
+    font-family: "Poppins", serif;
+   
+   
+}  
+.project .row .project2 .overlaytwo .common-icon a{
+    color:#FCD980;
+
+} 
+.project .row .project2 .overlaytwo .common-icon i{
+    color:#FCD980;
+
+} 
+/* ============
+project part end
+=============== */
