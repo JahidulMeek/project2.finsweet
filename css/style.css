@@ -399,3 +399,69 @@ product part start
 /* ===========
 product part end
 =============== */
+/* ===========
+client part start
+============= */
+.client{
+    background-color: #F4F6FC;
+    padding:130px 160px;
+
+}
+.client .row .Jahid {
+    row-gap:0px !important;
+}
+.client .row .Jahid h2{
+    font-size:38px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color:black !important;
+    line-height:56px;
+    width:327px;
+    padding-bottom:16px;
+}
+.client .row .Jahid p{
+    font-size:16px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    color:black !important;
+    line-height:28px;
+    width:327px;
+}
+.client .col-lg-8 h3{
+    font-size:32px;
+    font-weight:500;
+    font-family: "Poppins", serif;
+    color:#282938;
+    width:843px;
+    line-height:48px;
+    padding-bottom:48px;
+}
+.client .client-box{
+    display:flex;
+    column-gap:14px;
+  
+   
+}
+.client .client-box img{
+    width:52px;
+    height:52px;
+   
+}
+.client .client-name{
+    align-items: center;   
+}
+.client .client-box  h5{
+    font-size:18px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    color:#282938;
+}
+.client .client-box p{
+    font-size:12px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    color:#282938;
+}
+/* ===========
+client part end
+============= */
