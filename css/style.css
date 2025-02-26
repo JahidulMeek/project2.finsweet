@@ -337,3 +337,65 @@ project part start
 /* ============
 project part end
 =============== */
+/* ===========
+product part start
+=============== */
+.product{
+    background-color:#F4F6FC;
+    padding:128px 0px;
+}
+.product p{
+    font-size:16px;
+    font-family: "Poppins", serif;
+     text-align:center;
+     color:#282938;
+     padding-bottom:12px;
+}
+.product h3{
+    font-size:48px;
+    font-weight:600;
+    font-family: "Poppins", serif;
+    color:black;
+    width:630px;
+    margin:0 auto;/* margin div ke center kore ,if there is width property;*/
+    text-align:center; /* text ke center kore*/
+    padding-bottom:47px;  
+}
+.product .row {
+    row-gap:24px;
+}
+.product .row .card{
+    width:100% ! important;
+    padding-top:58px;
+    padding-left:48px;
+    padding-bottom:48px;
+    padding-right:32px;
+    border:0px !important;
+    border-radius: 0px !important;
+}
+.product .row .card img{
+    width:10%;
+}
+.card-body {
+    padding-left:0px !important;
+}
+.card-title{
+    padding-top:22px;
+    padding-bottom:12px;
+    font-size:24px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    color:#282938;
+}
+.card-text{
+    font-size:16px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    color:black !important;
+    line-height:28px;
+    width:324px;
+    text-align:justify !important;
+}
+/* ===========
+product part end
+=============== */
