@@ -716,3 +716,69 @@ blog part start
  /* ============
 blog part end
 ============== */
+/* ============
+footterone part start
+================ */
+.footone .container{
+    background-color:#1C1E53;
+    padding-top:100px;
+    padding-left:158px;
+
+}
+.footone .container .logopartcontant p{
+    color:white;
+    font-size:16px;
+    font-weight:500;
+    font-family: "Poppins", serif;
+    width:399px;
+    padding-top:22px;
+    padding-bottom:86px;
+}
+.footone .container .footerbox{
+    width:517px;
+    height:95px;
+    background-color:#FCD980;
+    display:flex;
+    justify-content:space-around;
+    padding:18px 20px;
+}
+.footone .container .footright h3{
+        color:white;
+        font-size:48px;
+        font-weight:600;
+        font-family: "Poppins", serif;
+}
+.footone .container .footright p{
+    color:white;
+    font-size:16px;
+    font-weight:600;
+    font-family: "Poppins", serif;
+    width:399px;
+    padding-top:14px;
+    padding-bottom:20px;
+}
+.footone .container .footright .icons{
+    display:flex;
+    column-gap:26px;
+    padding:0px;
+}
+.footone .container .footright .icons li i{
+    color:white;
+}
+/* footertwo part start */
+.footertwo p{
+    padding:32px 160px;
+}
+.footertwo ul{
+    display:flex;
+    column-gap:32px;
+    padding-top:32px;
+    padding-left:130px;
+   
+}
+.footertwo ul li a {
+    color:darkblue;
+}
+/* ============
+footterone part end
+================ */
